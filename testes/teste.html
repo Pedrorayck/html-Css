@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Apostas Esportivas</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#destaques">Destaques</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#apostar">Apostar</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="destaques" class="destaques">
+            <h2>Destaques</h2>
+            <div class="destaques-container">
+                <div class="destaque-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Jogo 1">
+                    <h3>Jogo 1: Time A vs Time B</h3>
+                    <p>Confira os detalhes deste grande jogo!</p>
+                    <button>Ver Mais</button>
+                </div>
+                <div class="destaque-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Jogo 2">
+                    <h3>Jogo 2: Time C vs Time D</h3>
+                    <p>Não perca este confronto emocionante!</p>
+                    <button>Ver Mais</button>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="eventos">
+            <h2>Eventos Esportivos</h2>
+            <ul>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Futebol">
+                    Futebol: Time A vs Time B
+                    <button>Apostar</button>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Basquete">
+                    Basquete: Time C vs Time D
+                    <button>Apostar</button>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Tênis">
+                    Tênis: Jogador E vs Jogador F
+                    <button>Apostar</button>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Vôlei">
+                    Vôlei: Time G vs Time H
+                    <button>Apostar</button>
+                </li>
+            </ul>
+        </section>
+        <section id="apostar" class="apostar">
+            <h2>Faça sua Aposta</h2>
+            <form action="#" method="post">
+                <label for="evento">Evento:</label>
+                <select id="evento" name="evento">
+                    <option value="futebol">Futebol: Time A vs Time B</option>
+                    <option value="basquete">Basquete: Time C vs Time D</option>
+                    <option value="tenis">Tênis: Jogador E vs Jogador F</option>
+                    <option value="volei">Vôlei: Time G vs Time H</option>
+                </select>
+                <label for="valor">Valor da Aposta:</label>
+                <input type="number" id="valor" name="valor" min="1" required>
+                <button type="submit">Apostar</button>
+            </form>
+        </section>
+    </main>
+    <!--<footer>
+        <p>&copy; 2024 Site de Apostas Esportivas. Todos os direitos reservados.</p>
+    </footer>-->
+</body>
+</html
